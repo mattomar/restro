@@ -1,0 +1,60 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1.5; /* Set default line height */
+    background-color: #f0f0f0; /* Set background color */
+    color: #333; /* Set default text color */
+    overflow-x: hidden;
+}
+
+.home-content{
+    display: flex;
+    justify-content: space-around;
+    border: red 5px;
+    margin-top: 40px;
+}
+
+
+.img-contain{
+    width: 450px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden; /* Hide any content that overflows the container */
+}
+
+
+.hero-image {
+    width: 450px;
+    height: auto;
+    transform-origin: center;
+    animation: rotateAnimation 15s linear infinite; 
+
+    
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
+
+
+.home-text{
+    padding-top: 130px;
+    font-size: 19px;
+}
+
+
+.home-text .welcome{
+    font-size: 50px;
+}
+
+.home-text b {
+    color: rgb(83, 0, 0);
+}
+
+.home-text .hero-content{
+color: black;
+}

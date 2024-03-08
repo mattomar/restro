@@ -58,3 +58,31 @@ body {
 .home-text .hero-content{
 color: black;
 }
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+    gap: 10px;
+    margin: 40px;
+
+}
+
+.menu-pic {
+    width: 300px;
+    height: auto;
+}
+
+.card{
+    background-color: rgb(225, 235, 231);
+    border-radius: 5px;
+}
+
+.card-flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}

@@ -27,3 +27,5 @@ document.addEventListener('DOMContentLoaded',() =>{
     const aboutTab = document.getElementById('about-tab')
     aboutTab.addEventListener('click', creatAboutPage)
 })
+
+import './style.css';

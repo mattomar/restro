@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/about.js":
+/*!**********************!*\
+  !*** ./src/about.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   creatAboutPage: () => (/* binding */ creatAboutPage),\n/* harmony export */   setHTMLContent: () => (/* binding */ setHTMLContent)\n/* harmony export */ });\nfunction setHTMLContent(html) {\n    const contentDiv = document.getElementById(\"content\")\n    contentDiv.innerHTML = html\n}\n\n\nfunction creatAboutPage(){\n    const aboutContent =\n    `\n    <div class=\"about\">\n    <div class=\"about-title\"><b>About Us</b></div>\n    <div class=\"about-description\">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, error. Magnam\n      veritatis incidunt excepturi? Nisi quaerat facilis molestiae, totam fugit libero blanditiis accusantium, fuga\n      minus minima iste ex. Iste perferendis repudiandae cum in, vitae consectetur sint temporibus commodi ipsum,\n      doloribus atque ab corrupti praesentium possimus libero! Reprehenderit quod consequuntur rem quidem veritatis ab\n      nobis architecto pariatur, deleniti placeat, porro autem perferendis iure. Aliquid, officia? Porro illo iure rerum\n      quam laboriosam laborum ratione deserunt odio magni quidem accusamus minima voluptas facere enim, quaerat debitis\n      ut. Obcaecati debitis culpa nemo? Dicta cumque, inventore officiis doloremque eius odit nam? Beatae accusantium\n      placeat sequi! fugiat quia.</div>\n  </div>`\n\n    setHTMLContent(aboutContent)\n}\n\n//# sourceURL=webpack://restro/./src/about.js?");
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -26,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n\n\ndocument.addEventListener('DOMContentLoaded',() =>{\n    const homeTab = document.getElementById('home-tab')\n    homeTab.addEventListener('click', _home__WEBPACK_IMPORTED_MODULE_0__.createHomePage)\n})\n\n\n;\n\ndocument.addEventListener('DOMContentLoaded',() =>{\n    const menuTab = document.getElementById('menu-tab')\n    menuTab.addEventListener('click', _menu__WEBPACK_IMPORTED_MODULE_1__.createMenuPage)\n})\n\n//# sourceURL=webpack://restro/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menu */ \"./src/menu.js\");\n/* harmony import */ var _about__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about */ \"./src/about.js\");\n\n\n\ndocument.addEventListener('DOMContentLoaded', () =>\n  (0,_home__WEBPACK_IMPORTED_MODULE_0__.createHomePage)()\n);\n\n\ndocument.addEventListener('DOMContentLoaded',() =>{\n    const homeTab = document.getElementById('home-tab')\n    homeTab.addEventListener('click', _home__WEBPACK_IMPORTED_MODULE_0__.createHomePage)\n})\n\n\n;\n\ndocument.addEventListener('DOMContentLoaded',() =>{\n    const menuTab = document.getElementById('menu-tab')\n    menuTab.addEventListener('click', _menu__WEBPACK_IMPORTED_MODULE_1__.createMenuPage)\n})\n\n\n\n;\n\ndocument.addEventListener('DOMContentLoaded',() =>{\n    const aboutTab = document.getElementById('about-tab')\n    aboutTab.addEventListener('click', _about__WEBPACK_IMPORTED_MODULE_2__.creatAboutPage)\n})\n\n//# sourceURL=webpack://restro/./src/index.js?");
 
 /***/ }),
 

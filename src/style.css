@@ -5,12 +5,49 @@ body {
     background-color: #f0f0f0; /* Set background color */
     color: #333; /* Set default text color */
     overflow-x: hidden;
+    overflow-y: scroll;
 }
+
+
+
+.tabs-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.tabs-title h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+
+
+.tabs button {
+    padding: 10px 20px; /* Add padding to the buttons */
+    margin-right: 10px; /* Add margin between buttons */
+    background-color: #f0f0f0; /* Background color */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add some rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .tabs button:hover {
+    background-color: #e0e0e0; /* Darker background color on hover */
+  }
+  
+  .tabs button.active {
+    background-color: #ffffff; /* Active tab background color */
+    font-weight: bold; /* Bold text for active tab */
+  }
 
 .home-content{
     display: flex;
     justify-content: space-around;
-    border: red 5px;
     margin-top: 40px;
 }
 
@@ -85,4 +122,22 @@ color: black;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.about-title{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+
+.about-description{
+    color: black;
 }

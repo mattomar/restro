@@ -17,7 +17,7 @@ export function createHomePage() {
         robust flavors of our Meat Lover's to the refreshing zest<br> of our Veggie Delight, each specialty pizza is a
         masterpiece of flavor and texture.</span></div>
     <div class="img-contain">
-      <img src="assets/imgs/pizza-hero.png" alt="a picture of a pizza" class="hero-image">
+      <img src="imgs/pizza-hero.png" alt="a picture of a pizza" class="hero-image">
     </div>
 `
 

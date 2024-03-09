@@ -1,0 +1,143 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    line-height: 1.5; /* Set default line height */
+    background-color: #f0f0f0; /* Set background color */
+    color: #333; /* Set default text color */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+
+.tabs-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.tabs-title h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+}
+
+
+.tabs button {
+    padding: 10px 20px; /* Add padding to the buttons */
+    margin-right: 10px; /* Add margin between buttons */
+    background-color: #f0f0f0; /* Background color */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Add some rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .tabs button:hover {
+    background-color: #e0e0e0; /* Darker background color on hover */
+  }
+  
+  .tabs button.active {
+    background-color: #ffffff; /* Active tab background color */
+    font-weight: bold; /* Bold text for active tab */
+  }
+
+.home-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+
+.img-contain{
+    width: 450px; /* Adjust the width as needed */
+    height: auto; /* Adjust the height as needed */
+    overflow: hidden; /* Hide any content that overflows the container */
+}
+
+
+.hero-image {
+    width: 450px;
+    height: auto;
+    transform-origin: center;
+    animation: rotateAnimation 15s linear infinite; 
+
+    
+}
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg); 
+    }
+    to {
+        transform: rotate(360deg); 
+    }
+}
+
+
+.home-text{
+    padding-top: 130px;
+    font-size: 19px;
+}
+
+
+.home-text .welcome{
+    font-size: 50px;
+}
+
+.home-text b {
+    color: rgb(83, 0, 0);
+}
+
+.home-text .hero-content{
+color: black;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+    gap: 10px;
+    margin: 40px;
+
+}
+
+.menu-pic {
+    width: 300px;
+    height: auto;
+}
+
+.card{
+    background-color: rgb(225, 235, 231);
+    border-radius: 5px;
+}
+
+.card-flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+
+}
+
+.about-title{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+
+.about-description{
+    color: black;
+}

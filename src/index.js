@@ -28,4 +28,3 @@ document.addEventListener('DOMContentLoaded',() =>{
     aboutTab.addEventListener('click', creatAboutPage)
 })
 
-import './style.css';
